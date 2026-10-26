@@ -1,0 +1,16 @@
+{
+  "keywords": [
+    "suin",
+    "scrof",
+    "pork",
+    "hog",
+    "piglet"
+  ],
+  "rss_feeds": [
+    {
+    "name": "Nome della fonte",
+    "url": "https://indirizzo-del-feed.rss"
+    }
+  ],
+  "scrape_pages": []
+}

@@ -1,0 +1,65 @@
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+*credentials*
+*secret*
+*private*
+
+# Personalized source configuration (contains private Google Alerts feed URLs)
+/config/sources.json
+
+# Local data, databases, logs, backups, and generated reports
+/data/
+/private/
+/secrets/
+/credentials/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+*.backup
+/preview_report.txt
+/preview_report.html
+
+# Python virtual environments, bytecode, and tooling caches
+/venv/
+/.venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+Icon?
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.idea/
